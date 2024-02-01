@@ -14,7 +14,10 @@ from typing import List
 import typer
 from rich.console import Console
 
+# TODO: read this intro to Typer
+# https://medium.com/@HeCanThink/typer-building-clis-in-python-%EF%B8%8F-8f496d295d1c
 # TODO: create a Typer object with the name cli to support the command-line interface
+# by typing `cli = typer.Typer()`
 
 
 class IntegerSquareApproach(str, Enum):
@@ -49,14 +52,17 @@ def compute_square_iterative(
     contents: str, square_function: Callable[[int], int]
 ) -> List[int]:
     """Compute the square of all of the integer values inside of the contents."""
-    # TODO: create an empty list for the squared values
-    # TODO: split the contents using .split('\n')
-    # TODO: iterate through all of the lines in the split contents
-    # --> TODO: convert the line into a number
-    # --> TODO: perform the number squaring computation with square_function
-    # --> TODO: add the squared_number to the square_list
-    # TODO: handle any errors related to converting a line into a number 
-    # TODO: return the list of the squared numbers
+    # TODO: create an empty list for the squared values by typing `list_of_squared_vals: List[int] = []`
+    # TODO: split the contents variable into lines using .split by typing `split_contents = contents.split("\n")`
+    # iterate through all of the lines in the split contents
+    for line in split_contents:
+        try:
+            # TODO: convert the line into a number by typing `number = int(line)`
+            # TODO: perform the number squaring computation with square_function by typing `number_squared = square_function(number)`
+            # TODO: add the squared_number to the square_list by typing `list_of_squared_vals.append(num_squared)`
+        except:
+            pass
+    # TODO: return the list of the squared numbers by typing `return list_of_squared_vals`
 
 
 @cli.command()
@@ -82,20 +88,16 @@ def square(
         square_list = []
         # the for loop approach should be invoked
         if approach.value == IntegerSquareApproach.FOR_LOOP:
-            # create the square function to be compute_square_for
+            # specify the square function to be compute_square_for
             square_function = compute_square_for
-            # call the compute_square_iterative function with:
-            # --> the contents_text variable with the numerical values as text
-            # --> the square function that is set to be compute_square_for
-            square_list = compute_square_iterative(contents_text, square_function)
         # the while loop approach should be invoked
         elif approach.value == IntegerSquareApproach.WHILE_LOOP:
-            # create the square function to be compute_square_while
-            # call the compute_square_iterative function with:
-            # --> the contents_text variable with the numerical values as text
-            # --> the square function that is set to be compute_square_while
+            # specify the square function to be compute_square_while
             square_function = compute_square_while
-            square_list = compute_square_iterative(contents_text, square_function)
+        # call the compute_square_iterative function with:
+        # --> the contents_text variable with the numerical values as text
+        # --> the square function that is set to be compute_square_while
+        square_list = compute_square_iterative(contents_text, square_function)
         # display the list of squared values
         console.print(square_list)
     # the file was no valid and thus you cannot perform the number squaring

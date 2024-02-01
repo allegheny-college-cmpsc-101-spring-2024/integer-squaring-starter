@@ -50,6 +50,8 @@ def test_compute_square_iterative_for_loop():
     assert square_list == [72 * 72, 29 * 29, 61 * 61, 42 * 42, 44 * 44]
 
 # TODO: resolve all of the TODO markers in this file
+# There is a case that is not covered. You must do detective work to figure out
+# what has not been tested!
 # TODO: Add a missing test function to complete test coverage of the CLI, square
 # TODO: Model your function on test_compute_square_iterative_for_loop():
 # TODO: Make sure your test does not duplicate coverage

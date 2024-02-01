@@ -1,6 +1,4 @@
-# Integer Squaring
-
-![Proactive Programmers](.github/images/Square-Proactive-Programmers-Logo.svg)
+# Integer Squaring Engineering Effort
 
 [![build](../../actions/workflows/build.yml/badge.svg)](../../actions/)
 ![Platforms: Linux, MacOS, Windows](https://img.shields.io/badge/Platform-Linux%20%7C%20MacOS%20%7C%20Windows-blue.svg)
@@ -9,19 +7,42 @@
 [![Commits: Conventional](https://img.shields.io/badge/Commits-Conventional-blue.svg)](https://www.conventionalcommits.org/en/v1.0.0/)
 [![Discord](https://img.shields.io/discord/872320492936257537?logo=discord)](https://discord.gg/kjah8MFYbR)
 
-- Due date: Check the [Proactive Programmers Discord
-server](https://discord.gg/kjah8MFYbR).
-- This assignment will be submitted on GitHub following
-the expectations in the syllabus on
-[Assignment Submission](https://github.com/allegheny-college-cmpsc-101-fall-2023/course-materials#assignment-submission).
-- Modifications to the gatorgrade.yml file are not permitted without explicit instruction.
+## Introduction
+
+- Due date: Check Discord or the [Course Materials Schedule](https://github.com/allegheny-college-cmpsc-101-spring-2024/course-materials/blob/main/Schedule.md)
+- This assignment is graded. Half of the grade is given by the gatorgrade score. The other half are checks (0/100)
+  for code correctness, writing quality, and professional skills as
+  described in the syllabus section for
+[Assignment Evaluation](https://github.com/allegheny-college-cmpsc-101-spring-2024/course-materials?tab=readme-ov-file#assignment-evaluation)
+- Submit this assignment on GitHub following the expectations in the syllabus on
+[Assignment Submission](https://github.com/allegheny-college-cmpsc-101-spring-2024/course-materials#assignment-submission).
 - To begin, read this `README` and the Proactive Programmers' project
-description for
-[Integer Squaring](https://proactiveprogrammers.com/data-abstraction/engineering-efforts/integer-squaring/).
-- You can check the
-[integer-squaring-starter repository](https://github.com/allegheny-college-cmpsc-101-fall-2023/integer-squaring-starter)
-for any updates to this project's documentation or
-source code.
+[instructions](https://proactiveprogrammers.com/data-abstraction/engineering-efforts/integer-squaring/)
+- This project has been adapted from Proactive Programmers' material, thus discrepancies are possible.
+- Post to the #data-structures Discord channel for questions and clarifications.
+- For reference, check the
+[starter repo](https://github.com/allegheny-college-cmpsc-101-spring-2024/integer-squaring-starter)
+- Do not change the gatorgrade file unless instructed.
+
+## Seeking Assistance
+
+Please review the course expectations on the syllabus about
+[Seeking Assistance](https://github.com/allegheny-college-cmpsc-101-spring-2024/course-materials#seeking-assistance).
+Students are reminded
+to uphold the Honor Code. Cloning the assignment repository is a
+commitment to the latter.
+
+For this assignment, you may use class materials, textbooks, notes, and the
+internet. Ensure that your writing is original and based on your own understanding
+of the concepts. Examples of plagiarism include:
+
+- verbatim copying without citation
+- copying with single word modifications
+- paraphrasing sections or notes from a source without citation
+
+To claim that work is your own, it is essential to craft the logic and the
+writing together without copying or using the logical structure of another
+source. The honor code holds everyone to this standard.
 
 ## Learning Objectives
 
@@ -32,23 +53,10 @@ that are stored in a file. The learning objectives of this assignment are to:
 
 1. Use Git and GitHub to manage source code file changes
 2. Use linters, code, and markdown formatters
-3. Use VS Code and virtual enviroment management tools
-4. Compare `for` and `while` loops
-5. Write clearly about the coding and development concepts in this assignment.
-
-## Seeking Assistance
-
-Please review the course expectations on the syllabus about
-[Seeking Assistance](https://github.com/allegheny-college-cmpsc-101-fall-2023/course-materials#seeking-assistance).
-Students are reminded
-to uphold the Honor Code. Cloning the assignment repository is a
-commitment to the latter.
-
-For this assignment, you may use class materials, textbooks, notes, and the
-internet. However,
-when asked to write "in your own words", you must use _your own_ words.
-
-Post questions to the [Proactive Programmers Discord server](https://discord.gg/kjah8MFYbR).
+3. Use VS Code and virtual environment management tools
+4. Do detective work to figure out how this project is put together
+5. Recognize Command Line Interface packages and functions
+6. Write clearly about the coding and development concepts in this assignment.
 
 ## Project Overview
 
