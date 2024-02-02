@@ -96,11 +96,11 @@ def square(
             square_function = compute_square_while
         # call the compute_square_iterative function with:
         # --> the contents_text variable with the numerical values as text
-        # --> the square function that is set to be compute_square_while
+        # --> the square function that is set to be the square function
         square_list = compute_square_iterative(contents_text, square_function)
         # display the list of squared values
         console.print(square_list)
-    # the file was no valid and thus you cannot perform the number squaring
+    # the file was not valid and thus you cannot perform the number squaring
     else:
         console.print(
             f":person_shrugging: {file_fully_qualified} was not a valid file! Sorry, cannot square the numbers!"

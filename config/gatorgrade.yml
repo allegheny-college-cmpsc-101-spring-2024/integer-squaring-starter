@@ -41,7 +41,7 @@ setup: |
       check: MatchFileFragment
       options:
         fragment: "compute_square_iterative(contents_text, square_function)"
-        count: 2
+        count: 1
         exact: true
     - description: Define the confirm_valid_file function in main.py
       check: MatchFileFragment
@@ -194,7 +194,7 @@ setup: |
       check: CountMarkdownTags
       options:
         tag: heading
-        count: 13
+        count: 14
         exact: true
     - description: Confirm that the markdown file has the correct number of fenced code blocks
       check: CountMarkdownTags
