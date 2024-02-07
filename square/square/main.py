@@ -60,7 +60,7 @@ def compute_square_iterative(
             # TODO: convert the line into a number by typing `number = int(line)`
             # TODO: perform the number squaring computation with square_function by typing `number_squared = square_function(number)`
             # TODO: add the squared_number to the square_list by typing `list_of_squared_vals.append(num_squared)`
-        except:
+        except TypeError:
             pass
     # TODO: return the list of the squared numbers by typing `return list_of_squared_vals`
 

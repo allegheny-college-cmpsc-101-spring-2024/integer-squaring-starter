@@ -63,11 +63,9 @@ that are stored in a file. The learning objectives of this assignment are to:
 After cloning this repository to your computer, please take the following
 steps:
 
-- Make sure that you have already installed and know how to use all of the
-  programming tools that are mentioned in the description of the [Proactive
-  Skills](https://proactiveprogrammers.com/proactive-skills/technical-skills/introduction-technical-skills/).
 - Follow the detailed
-  [instructions](https://proactiveprogrammers.com/data-abstraction/engineering-efforts/integer-squaring/) on the Proactive Programmers web site for this
+  [instructions](https://proactiveprogrammers.com/data-abstraction/engineering-efforts/integer-squaring/)
+  on the Proactive Programmers web site for this
   project to take all of the needed steps and to complete all of the required
   deliverables.
 - Use the `cd` command to change into the directory for this repository.
