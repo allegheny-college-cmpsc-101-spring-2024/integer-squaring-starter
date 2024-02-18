@@ -9,19 +9,21 @@
 
 ## Introduction
 
-- Due date: Check Discord or the [Course Materials Schedule](https://github.com/allegheny-college-cmpsc-101-spring-2024/course-materials/blob/main/Schedule.md)
-- This assignment is graded. Half of the grade is given by the gatorgrade score. The other half are checks (0/100)
-  for code correctness, writing quality, and professional skills as
-  described in the syllabus section for
-[Assignment Evaluation](https://github.com/allegheny-college-cmpsc-101-spring-2024/course-materials?tab=readme-ov-file#assignment-evaluation)
+- Due date: Check Discord or the
+  [Course Materials Schedule](https://github.com/allegheny-college-cmpsc-101-spring-2024/course-materials/blob/main/Schedule.md)
+- This assignment is graded. Half of the grade is given by the gatorgrade score.
+  The other half are checks (0/100) for code correctness, writing quality, and
+  professional skills as described in the syllabus section for
+  [Assignment Evaluation](https://github.com/allegheny-college-cmpsc-101-spring-2024/course-materials?tab=readme-ov-file#assignment-evaluation)
 - Submit this assignment on GitHub following the expectations in the syllabus on
-[Assignment Submission](https://github.com/allegheny-college-cmpsc-101-spring-2024/course-materials#assignment-submission).
+  [Assignment Submission](https://github.com/allegheny-college-cmpsc-101-spring-2024/course-materials#assignment-submission).
 - To begin, read this `README` and the Proactive Programmers' project
-[instructions](https://proactiveprogrammers.com/data-abstraction/engineering-efforts/integer-squaring/)
-- This project has been adapted from Proactive Programmers' material, thus discrepancies are possible.
+  [instructions](https://proactiveprogrammers.com/data-abstraction/engineering-efforts/integer-squaring/)
+- This project has been adapted from Proactive Programmers' material, thus
+  discrepancies are possible.
 - Post to the #data-structures Discord channel for questions and clarifications.
 - For reference, check the
-[starter repo](https://github.com/allegheny-college-cmpsc-101-spring-2024/integer-squaring-starter)
+  [starter repo](https://github.com/allegheny-college-cmpsc-101-spring-2024/integer-squaring-starter)
 - Do not change the gatorgrade file unless instructed.
 
 ## Seeking Assistance
